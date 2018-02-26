@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Account</string>
+
+    <string name="btn_first">My Profile</string>
+    <string name="btn_second">Preferences</string>
+    <string name="btn_third">Support</string>
+    <string name="btn_fourth">Flames</string>
+    <string name="btn_invite">Invite Friends</string>
+
+    <string name="text_flame">0</string>
+</resources>

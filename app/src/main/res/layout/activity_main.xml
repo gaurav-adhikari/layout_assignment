@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.techgaurav.assign_1.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_profile"
+        style="@style/buttontheme1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/icon_user"
+        android:text="@string/btn_first"
+
+        />
+
+    <Button
+        android:id="@+id/btn_pref"
+        style="@style/buttontheme1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="3dp"
+        android:drawableLeft="@drawable/icon_preferences"
+        android:text="@string/btn_second" />
+
+
+    <Button
+        android:id="@+id/btn_support"
+        style="@style/buttontheme1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="3dp"
+        android:drawableLeft="@drawable/icon_support"
+        android:text="@string/btn_third" />
+
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_flames"
+            style="@style/buttontheme1"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/icon_flame"
+            android:text="@string/btn_fourth"
+            app:layout_widthPercent="82%" />
+
+        <TextView
+            android:id="@+id/tv_flames"
+            style="@style/tv_flames"
+            android:layout_height="45dp"
+            android:layout_alignBaseline="@+id/btn_flames"
+            android:layout_alignBottom="@+id/btn_flames"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/tv_my"
+            android:text="@string/text_flame"
+            app:layout_widthPercent="14%"
+            />
+
+    </android.support.percent.PercentRelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn_invite"
+        style="@style/btn_invite"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_my"
+        android:drawableLeft="@drawable/icons_adduser"
+        android:text="@string/btn_invite" />
+
+</LinearLayout>
